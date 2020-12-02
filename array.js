@@ -129,8 +129,6 @@ const removeChars = (str, filter) => {
 
 // console.log(removeChars('Battle of the Vowels: Hawaii vs. Grozny', 'aeiou'));
 
-//Do two iterations over the array - on the first one put in each cell the product of all preceding elements and on the second one multiply this by the product of all succeding elements.
-
 const products = (arr) => {
   let result = [];
   let products;
